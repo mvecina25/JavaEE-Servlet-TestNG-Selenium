@@ -1,0 +1,20 @@
+package com.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestLoginLogout {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		
+		WebDriver driver = new FirefoxDriver();
+		Constants cons = new Constants();
+				
+		// Go to Modirum Page
+		driver.get(cons.MODIRUM_PAGE);
+		
+		
+	}
+
+}

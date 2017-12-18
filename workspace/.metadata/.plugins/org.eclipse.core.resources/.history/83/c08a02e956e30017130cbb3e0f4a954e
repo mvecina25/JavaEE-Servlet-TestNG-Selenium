@@ -1,0 +1,49 @@
+package com.selenium;
+
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CommandExecutor;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class TestLoginLogout {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.gecko.driver",
+                "C:\\Selenium WebDriver\\geckodriver.exe");
+		
+		FirefoxOptions capabilities = new FirefoxOptions();
+//		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		capabilities.setCapability("marionette", true);
+		
+//		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new RemoteWebDriver(capabilities);
+//		WebDriver driver = new ChromeDriver();
+		
+//		System.setProperty("webdriver.chrome.driver","C:\\Selenium WebDriver\\chromedriver.exe");
+//	    WebDriver driver = new ChromeDriver();
+	    driver.get("http://www.facebook.com");
+   
+	    
+	    driver.manage().window().maximize();
+		
+		
+//		Constants cons = new Constants();
+				
+		// Go to Modirum Page
+//		driver.get(cons.MODIRUM_PAGE);
+//		driver.get("http://www.facebook.com");
+//		WebElement link;
+		
+		
+		
+
+	}
+
+}

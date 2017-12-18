@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4892" started-at="2017-12-18T12:53:04Z" finished-at="2017-12-18T12:53:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4892" started-at="2017-12-18T12:53:04Z" finished-at="2017-12-18T12:53:09Z">
+      <class name="com.selenium.TestNGLoginLogout">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="beforeMethod" is-config="true" duration-ms="3234" started-at="2017-12-18T20:53:01Z" finished-at="2017-12-18T20:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToLoginPage()[pri:1, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="goToLoginPage" duration-ms="1369" started-at="2017-12-18T20:53:04Z" finished-at="2017-12-18T20:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method status="PASS" signature="loginUser()[pri:2, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="loginUser" duration-ms="1990" started-at="2017-12-18T20:53:05Z" finished-at="2017-12-18T20:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="verifyLogin" duration-ms="157" started-at="2017-12-18T20:53:07Z" finished-at="2017-12-18T20:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="logoutUser()[pri:4, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="logoutUser" duration-ms="1166" started-at="2017-12-18T20:53:08Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method status="PASS" signature="verifyLogout()[pri:5, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="verifyLogout" duration-ms="150" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="otherTC1()[pri:6, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC1" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC1 -->
+        <test-method status="PASS" signature="otherTC2()[pri:7, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC2" duration-ms="2" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC2 -->
+        <test-method status="PASS" signature="otherTC3()[pri:8, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC3" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC3 -->
+        <test-method status="PASS" signature="otherTC4()[pri:9, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC4" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC4 -->
+        <test-method status="PASS" signature="otherTC5()[pri:10, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC5" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC5 -->
+        <test-method status="PASS" signature="otherTC6()[pri:11, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC6" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC6 -->
+        <test-method status="PASS" signature="otherTC7()[pri:12, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC7" duration-ms="0" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC7 -->
+        <test-method status="PASS" signature="otherTC8()[pri:13, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC8" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC8 -->
+        <test-method status="PASS" signature="otherTC9()[pri:14, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC9" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC9 -->
+        <test-method status="PASS" signature="otherTC10()[pri:15, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC10" duration-ms="2" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC10 -->
+        <test-method status="PASS" signature="otherTC11()[pri:16, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC11" duration-ms="0" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC11 -->
+        <test-method status="PASS" signature="otherTC12()[pri:17, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="otherTC12" duration-ms="1" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTC12 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.TestNGLoginLogout@29ee9faa]" name="afterMethod" is-config="true" duration-ms="13" started-at="2017-12-18T20:53:09Z" finished-at="2017-12-18T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.selenium.TestNGLoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

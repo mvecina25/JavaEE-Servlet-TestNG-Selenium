@@ -1,0 +1,40 @@
+package com.selenium;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class TestLoginLogout {
+
+	public static WebDriver driver;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		// Go to Modirum Page
+		setUp();
+		
+		
+
+	}
+	
+	public static void setUp(){
+		String baseUrl = "http://localhost:8080/Modirum/index.html";
+		System.setProperty("webdriver.ie.driver", "C:/Selenium WebDriver/IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
+		driver.navigate().to(baseUrl);
+		driver.manage().window().maximize();
+	}
+	
+	public static void clickLink(){
+		WebElement link;
+		link = driver.findElement(By.linkText("login.html"));
+		
+	}
+	
+
+}

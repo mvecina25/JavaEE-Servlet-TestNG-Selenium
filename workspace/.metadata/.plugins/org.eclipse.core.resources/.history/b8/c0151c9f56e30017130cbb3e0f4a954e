@@ -1,0 +1,17 @@
+package com.selenium;
+
+import java.io.IOException;
+
+import org.openqa.selenium.remote.Command;
+import org.openqa.selenium.remote.CommandExecutor;
+import org.openqa.selenium.remote.Response;
+
+public class SeleneseCommandExecutor implements CommandExecutor {
+
+	@Override
+	public Response execute(Command arg0) throws IOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

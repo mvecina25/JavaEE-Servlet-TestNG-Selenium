@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Modirum/src/com/modirum/ProfileServlet.java&apos;" deleteContents="false" description="Delete resource &apos;Modirum/src/com/modirum/ProfileServlet.java&apos;" element1="/Modirum/src/com/modirum/ProfileServlet.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1513447944667"/>
+</session>
