@@ -1,4 +1,4 @@
-# modirum_repo
+# TestNG with Selenium
 
 Pre-requisite:
 1. Internet Explorer: Enable Protected Mode for all levels
