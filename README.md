@@ -1,4 +1,5 @@
-# TestNG with Selenium
+# Application - Java EE Servlet: Simple Login/Logout Page
+# Automation - TestNG with Selenium
 
 ### Pre-requisite
 1. Internet Explorer: Enable Protected Mode for all levels
